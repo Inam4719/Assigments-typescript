@@ -1,0 +1,12 @@
+let places=["Peshawar","Lahore","islamabad","Dubai"];
+console.log("Original order:",places);
+console.log("Alphabatic order;",places.sort());
+console.log("original order:",places);
+places.reverse();
+console.log("Reverse order:",places);
+places.reverse();
+console.log("Back to Original Order:",places);
+places.sort();
+console.log("Sorted in Alphabetical Order:",places);
+places.sort().reverse();
+console.log("Sorted in Reverse Alphabetical Order:",places);
